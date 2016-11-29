@@ -28,8 +28,9 @@ $td_sidebar_position = '';
 if($loop_sidebar_position == 'sidebar_left') {
 	$td_sidebar_position = 'td-sidebar-left';
 }
+
+    //no page builder detected, we load a default page template with sidebar / no sidebar
 ?>
-<?php echo Danbi_Namecheck(); ?>
 
 <div class="td-main-content-wrap">
     <div class="td-container <?php echo $td_sidebar_position; ?>">
@@ -142,10 +143,8 @@ if($loop_sidebar_position == 'sidebar_left') {
     </div> <!-- /.td-container -->
 </div> <!-- /.td-main-content-wrap -->
 
-    <?php
-}
-
-
-
+<?php
 
 get_footer();
+
+?>
