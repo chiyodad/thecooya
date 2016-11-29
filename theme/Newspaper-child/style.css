@@ -1,0 +1,210 @@
+/*
+Theme Name: Newspaper Child Theme
+Description: Theme of Iconic One Child Theme
+Theme URI:
+Author: tagDiv
+Author URI:
+Template: Newspaper
+Version: 1.0.0
+*/
+
+@import url(../Newspaper/style.css);
+/* Top Menu font size */
+.td-header-sp-top-menu {
+    font-size : 0.9rem !important;
+}
+
+/* Soical Login */
+.mfp-content .td-login-panel-descr {
+    margin-bottom: 20px;
+}
+
+#td-mobile-nav .td-login-panel-title {
+    padding: 10px 10px;
+}
+
+.wp-social-login-widget {
+    text-align:center;
+    margin : auto;
+}
+
+.fa {
+    font-size : 24px;
+    padding: 0px 6px;
+}
+
+/* Login Error Message*/
+.mfp-content .td_display_err {
+  top: 295px;
+}
+
+/* mail chimp */
+#footer-input-email {
+    width:20em;
+    height: 3em;
+}
+
+#footer-email {
+    color: #18bc9c;
+}
+
+#footer-input-submit{
+    border: 1px solid #18bc9c;
+    background-color: #2c3e50;
+    width:5em;
+    color : #18bc9c;
+}
+
+#footer-input-submit:hover{
+    background-color: #18bc9c;
+    color : #ffffff;
+}
+/* contact form css */
+.contact-form input[type=submit] {
+    background-color : #2c3e50;
+    font-size : 20px;
+    width : 120px;
+    height : 40px;
+}
+
+.contact-form input[type=submit]:hover {
+    background-color : #18bc9c;
+}
+
+/* post bottom sharing box*/
+.td-post-sharing-bottom{
+    border : 0px;
+}
+
+.td-post-share-title {
+    display:none;
+}
+
+.td-post-sharing a.td-social-google {
+    display : none;
+}
+
+.td-post-sharing a.td-social-pinterest {
+    display : none;
+}
+
+/* main page */
+#main-middle-ad {
+    text-align : center;
+}
+
+/* read me page */
+#page-read-me .td-block-span6 {
+    width : 100%;
+}
+
+/* disable comment count */
+.td-module-comments {
+    display : none;
+}
+
+/* survey register page*/
+.entry-title .td-page-title {
+    font-size : 18px;
+    text-decoration:bold;
+    color : #18bc9c;
+}
+ul.wpuf-form .wpuf-submit input[type=submit]{
+    border : 1px solid #2C3E50;
+    border-radius: 0px;
+    color : #ffffff;
+    background-color : #2C3E50;
+    background-image : none;
+
+}
+
+ul.wpuf-form .wpuf-submit input[type=submit]:hover{
+    color : #ffffff;
+    border : 1px solid #18bc9c;
+    background-color : #18bc9c;
+}
+
+/* --------------  Survey Area ------------------- */
+/* 성인투표 */
+.thumbs-rating-container .thumbs-rating-up{
+	background: #2C3E50;
+}
+
+/* 미성년 투표 */
+.thumbs-rating-container .thumbs-rating-down{
+    background: #18bc9c;
+}
+
+
+/* ----------- soomduck ---------------------*/
+.menu-sd {
+  text-decoration: none;
+  font-family: SpoqaHanSans-Bold ;
+  font-size : 16px;
+  color: #2c3e50;
+  margin-top : 0.5em;
+  margin-bottom : 0.5em;
+
+}
+
+.menu-sd a {
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+.menu-sd a:hover {
+  color: #18bc9c;
+}
+
+.menu-sd a:active {
+  color: #18bc9c;
+}
+
+
+
+/* ----------- soomduck ---------------------*/
+.menu-sd {
+  text-decoration: none;
+  font-family: SpoqaHanSans-Bold ;
+  font-size : 16px;
+  color: #2c3e50;
+  margin-top : 0.5em;
+  margin-bottom : 0.5em;
+
+}
+
+.menu-sd a {
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+.menu-sd a:hover {
+  color: #18bc9c;
+}
+
+.menu-sd a:active {
+  color: #18bc9c;
+}
+
+.td-social-whatsapp {
+  display: none !important;
+}
+
+.content-header-link {
+  color: #18bc9c;
+}
+
+.content-header-link:hover{
+  color: #2c3e50;
+}
+
+.content-header-link:active{
+  color: #2c3e50;
+}
+
+
+/* profile */
+#wpmem_reg .noinput {
+  background: #2c3e50;
+  color: #ffffff;
+}

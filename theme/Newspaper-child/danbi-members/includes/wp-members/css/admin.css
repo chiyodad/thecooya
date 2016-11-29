@@ -1,0 +1,24 @@
+#dbmem-tab-etc .recaptcha-settigns {
+	margin: 5px 0 0 166px;
+}
+#dbmem-tab-etc .recaptcha-settigns span {
+	width: 80px;
+	display: inline-block;
+}
+#dbmem-tab-etc .option-desc {
+	margin: 2px 0 0 166px;
+}
+#dbmem-tab-etc .option-desc li {
+	margin: 0;
+}
+#dbmem-tab-etc .check-unique {
+	margin-left: 166px;
+}
+#dbmem-tab-etc .check-unique label {
+	width: inherit;
+	margin-right: 20px;
+	font-style: italic;
+}
+#dbmem-tab-etc li::after {
+	clear:both;
+}

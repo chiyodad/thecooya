@@ -1,0 +1,15 @@
+.widefat .check-column {
+  width: .2em;
+}
+td.plugin-update .invalid-message {
+	margin-left: 0;
+}
+td.plugin-update .invalid-message:before {
+	content: "\f153";
+}
+td.plugin-title {
+	vertical-align: middle;
+}
+td.desc img {
+	visibility: hidden;
+}

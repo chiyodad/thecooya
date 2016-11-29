@@ -1,0 +1,76 @@
+/* 회원가입 textarea 영역 스타일쉬트 */
+#wpmem_reg .div_textarea {
+/*    width: 50%; */
+}
+
+/* 회원가입 버튼영역 스타일쉬트 */
+#wpmem_reg .button_div {
+/*    width: 50%; */
+}
+
+/* 회원가입 input 영역(ID, 이메일, 비밀번호 등) 스타일쉬트 */
+#wpmem_reg .div_text {
+/*    width: 30%; */
+}
+
+#wpmem_reg input[name="mobile"], #wpmem_reg input[name="billing_postcode"], #wpmem_reg input[name="zip"] {
+    width: 50%;
+    display: inline-block;
+}
+#wpmem_reg form input.unique-field {
+    width: 50%;
+}
+
+/* 로그인 버튼영역 스타일쉬트 */
+#wpmem_login .button_div {
+/*    width: 50%; */
+    height: auto;
+}
+
+/* 로그인 input 영역 스타일쉬트 */
+#wpmem_login .div_text {
+/*    width: 30%; */
+}
+
+#wpmem_login input[name="rememberme"] {
+	vertical-align: middle;
+    display: inline-block !important;
+    float: inherit !important;
+}
+
+#wpmem_reg .d_btn {
+    padding: 8px 10px 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-color: #dbdbdb #dbdbdb #dbdbdb #dbdbdb;
+    cursor: pointer;
+    color: #464646 !important;
+    vertical-align: baseline;
+    background: #f2f2f2;
+    margin-left: 5px;
+    height: 100%;
+/*    border-radius: .2em;
+    background: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f2f2f2));
+    background: -moz-linear-gradient(top,#fff,#f2f2f2);
+    background: -o-gradient(top,#fff,#f2f2f2);
+    background: linear-gradient(top,#fff,#f2f2f2);
+     */
+}
+
+#wpmem_reg, #wpmem_login, .wpmem_msg {
+    margin-left: 21%;
+}
+.wpmem_msg {
+    width: 58%;
+}
+#wpmem_reg .noinput {
+    width: 100%;
+}
+@media screen and (max-width: 720px) {
+    #wpmem_reg, #wpmem_login, .wpmem_msg {
+        margin-left: 0;
+    }
+    #wpmem_msg, .wpmem_msg {
+        width: 100%;
+    }
+}

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "danbi-icon";
+  src:url("fonts/danbi-icon.eot");
+  src:url("fonts/danbi-icon.eot?#iefix") format("embedded-opentype"),
+    url("fonts/danbi-icon.woff") format("woff"),
+    url("fonts/danbi-icon.ttf") format("truetype"),
+    url("fonts/danbi-icon.svg#danbi-icon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+li.toplevel_page_danbi_manager div.wp-menu-image:before {
+    font-family: "danbi-icon";
+	content: "a";
+    margin-top: 2px;
+}

@@ -1,0 +1,23 @@
+.dp-members-content {
+	padding: 3px;
+	width: 100%;
+	height: 200px;
+	overflow: auto;
+	font-size: 80%;
+	border: 1px solid rgba(0, 0, 0, 0.0980392);
+}
+#wp-social-login-connect-options a {
+	margin-right: 3px;
+}
+.woocommerce .myaccount_user {
+	display: none;
+}
+/* 회원가입 이용약관 textarea 스타일쉬트 */
+.agreement-box .div_textarea {
+    position: relative;
+	height: 150px;
+    overflow-y: auto;
+    border: 1px solid darkgrey;
+    padding: 10px;
+    font-size: smaller;
+}

@@ -1,0 +1,414 @@
+# Copyright (C) 2015 단비 멤버스
+# This file is distributed under the same license as the 단비 멤버스 package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 단비 멤버스 1.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/danbi-members\n"
+"POT-Creation-Date: 2015-09-09 15:06:22+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-05-10 10:26+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"X-Generator: Poedit 1.8.7\n"
+
+#: admin.php:41 includes/wp-members/admin/admin.php:45
+#: includes/wp-members/admin/tab-fields.php:15
+#: includes/wp-members/admin/tab-fields.php:20
+msgid "Name"
+msgstr "이름"
+
+#: admin.php:74
+msgid "You have access to the wrong path."
+msgstr "이 페이지에 접근할 권한이 없습니다."
+
+#: admin.php:80
+msgid "Passwords do not match."
+msgstr "비밀번호가 일치하지 않습니다."
+
+#: admin.php:102
+msgid "withdrawal"
+msgstr "탈퇴"
+
+#: admin.php:103
+msgid "Username"
+msgstr "회원 ID"
+
+#: admin.php:103
+msgid "Reason"
+msgstr "사유"
+
+#: admin.php:103
+msgid "User Profile"
+msgstr "회원정보"
+
+#: admin.php:132
+msgid "DanbiMembers Extra Fields"
+msgstr "단비멤버스 추가 필드"
+
+#: admin.php:136 danbi-members.php:107 danbi-members.php:119
+msgid "Withdrawal Reason"
+msgstr "탈퇴 사유"
+
+#: danbi-members.php:105 danbi-members.php:117
+#: includes/wp-members/admin/tab-fields.php:17
+msgid "Password"
+msgstr "비밀번호"
+
+#: danbi-members.php:78
+msgid "Withdraw"
+msgstr "회원탈퇴"
+
+#: danbi-members.php:117 danbi-members.php:119
+msgid "Sorry, %s is a required field."
+msgstr "% 필드를 입력해주십시오."
+
+#: danbi-members.php:123
+msgid "Withdrawal has been processed successfully."
+msgstr "회원탈퇴가 처리되었습니다."
+
+#: includes/login_logout_links.php:40
+msgid "User"
+msgstr "회원"
+
+#: includes/login_logout_links.php:47
+msgid "Log in"
+msgstr "로그인"
+
+#: includes/login_logout_links.php:48 includes/wp-members/admin/admin.php:107
+msgid "Register"
+msgstr "회원가입"
+
+#: includes/login_logout_links.php:49
+msgid "User Name"
+msgstr "사용자 이름"
+
+#: includes/login_logout_links.php:49 includes/wp-members/admin/admin.php:108
+msgid "Profile"
+msgstr "회원정보"
+
+#: includes/login_logout_links.php:50
+msgid "Update Profile"
+msgstr "회원정보 수정"
+
+#: includes/login_logout_links.php:51
+msgid "Change Password"
+msgstr "비밀번호 변경"
+
+#: includes/login_logout_links.php:52
+msgid "My Account"
+msgstr "내 계정"
+
+#: includes/login_logout_links.php:52
+msgid "Woocommerce"
+msgstr "우커머스"
+
+#: includes/login_logout_links.php:53
+msgid "Log out"
+msgstr "로그아웃"
+
+#: includes/login_logout_links.php:54 includes/wp-members/admin/admin.php:118
+#: includes/wp-members/admin/tab-etc.php:62
+msgid "Withdrawal"
+msgstr "회원탈퇴"
+
+#: includes/login_logout_links.php:84
+msgid "Select All"
+msgstr "전체 선택"
+
+#: includes/login_logout_links.php:87
+msgid "Add to Menu"
+msgstr "메뉴에 추가"
+
+#: includes/wp-members/admin/admin.php:62
+msgid "Settings"
+msgstr "설정"
+
+#: includes/wp-members/admin/admin.php:67
+msgid "Groups"
+msgstr "그룹"
+
+#: includes/wp-members/admin/admin.php:69
+msgid "Miscellaneous"
+msgstr "추가"
+
+#: includes/wp-members/admin/admin.php:109
+#: includes/wp-members/admin/tab-etc.php:61
+msgid "Welcome"
+msgstr "회원가입 완료"
+
+#: includes/wp-members/admin/admin.php:109
+msgid "Welcome to the wonderful world of xyz.com"
+msgstr "회원가입이 완료되었습니다."
+
+#: includes/wp-members/admin/admin.php:110
+#: includes/wp-members/admin/tab-etc.php:60
+msgid "Log In"
+msgstr "로그인"
+
+#: includes/wp-members/admin/admin.php:111
+#: includes/wp-members/admin/tab-etc.php:63
+msgid "Terms of Service"
+msgstr "이용약관"
+
+#: includes/wp-members/admin/admin.php:111
+msgid "This is the Terms of Service page."
+msgstr "이용약관 페이지입니다."
+
+#: includes/wp-members/admin/admin.php:112
+#: includes/wp-members/admin/tab-etc.php:64
+msgid "Privacy Policy"
+msgstr "개인정보 보호정책"
+
+#: includes/wp-members/admin/admin.php:112
+msgid "This is the Privacy Policy page."
+msgstr "개인정보 보호정책 페이지입니다."
+
+#: includes/wp-members/admin/admin.php:114
+msgid "All of your information will be removed after withdrawal."
+msgstr "회원을 탈퇴하시면, 보유하신 모든 사이트 정보와 데이타가 삭제됩니다."
+
+#: includes/wp-members/admin/admin.php:116
+msgid "We'd like to listen to your voice and make better services."
+msgstr "탈퇴사유를 적어주시면, 더욱 좋은 서비스가 되도록 노력하겠습니다."
+
+#: includes/wp-members/admin/admin.php:210
+msgid "Page"
+msgstr "페이지"
+
+#: includes/wp-members/admin/admin.php:216
+msgid "Optional"
+msgstr "선택"
+
+#: includes/wp-members/admin/tab-etc.php:7
+msgid "Options saved."
+msgstr "옵션이 저장되었습니다."
+
+#: includes/wp-members/admin/tab-etc.php:10
+msgid "Pages of Log in, Register, Welcome, Profile, Withdrawal, Reset Password, Retrieve Username, Terms of Service and Privacy policy created."
+msgstr "로그인, 회원가입, 회원가입 완료, 회원정보, 회원탈퇴, 비밀번호 변경, 아이디 찾기, 이용약관, 개인정보 보호정책 페이지를 생성했습니다."
+
+#: includes/wp-members/admin/tab-etc.php:27
+msgid "You can create pages of Log in, Register, Welcome, Profile, Withdrawal, Reset Password, Retrieve Username, Terms of Service and Privacy Policy?"
+msgstr "로그인, 회원가입, 회원가입 완료, 회원정보, 회원탈퇴, 비밀번호 변경, 아이디 찾기, 이용약관, 개인정보 보호정책 페이지를 추가할 수 있습니다."
+
+#: includes/wp-members/admin/tab-etc.php:30
+msgid "Add Pages"
+msgstr "페이지 추가"
+
+#: includes/wp-members/admin/tab-etc.php:31
+msgid "Dismiss"
+msgstr "무시"
+
+#: includes/wp-members/admin/tab-etc.php:46
+msgid "Miscellaneous Settings"
+msgstr "추가 설정"
+
+#: includes/wp-members/admin/tab-etc.php:53
+msgid "Logged in after register"
+msgstr "회원가입 후 로그인"
+
+#: includes/wp-members/admin/tab-etc.php:53
+msgid "Changes the user status to be logged in after register"
+msgstr "회원가입 후 로그인 상태로 변경합니다."
+
+#: includes/wp-members/admin/tab-etc.php:54
+msgid "Confirm password"
+msgstr "비밀번호 확인"
+
+#: includes/wp-members/admin/tab-etc.php:54
+msgid "Appends the Repeat Password field next to the Password in the register form"
+msgstr "회원가입 폼에서 비밀번호 다음에 비밀번호 확인 필드를 추가합니다."
+
+#: includes/wp-members/admin/tab-etc.php:55
+msgid "Send HTML email"
+msgstr "HTML 이메일 발송"
+
+#: includes/wp-members/admin/tab-etc.php:55
+msgid "Sends a welcome email of the HTML format to the new user."
+msgstr "신규 사용자에게 HTML 형식으로 환영 이메일을 발송합니다."
+
+#: includes/wp-members/admin/tab-etc.php:56
+msgid "Notify admin"
+msgstr "관리자 알림"
+
+#: includes/wp-members/admin/tab-etc.php:56
+msgid "Notifies the administrator of the user's withdrawal"
+msgstr "회원탈퇴 시 관리자에게 알려줍니다."
+
+#: includes/wp-members/admin/tab-etc.php:57
+msgid "Hide Reset Form button"
+msgstr "다시 입력 버튼 숨김"
+
+#: includes/wp-members/admin/tab-etc.php:57
+msgid "Hides the Reset Form button in the register form"
+msgstr "회원가입 폼에서 다시 입력 버튼을 숨깁니다."
+
+#: includes/wp-members/admin/tab-etc.php:58
+#: includes/wp-members/register_form_script.php:58
+#: includes/wp-members/register_form_script.php:59
+#: includes/wp-members/wp-members.php:189
+#: includes/wp-members/wp-members.php:191
+msgid "Search postcode"
+msgstr "우편번호 검색"
+
+#: includes/wp-members/admin/tab-etc.php:58
+msgid "Uses <a href=\"http://postcode.map.daum.net/guide\" target=\"_blank\">Daum Postcode Service</a> in the register form"
+msgstr "회원가입 폼에서 <a href=\"http://postcode.map.daum.net/guide\" target=\"_blank\">다음 우편번호 서비스</a>를 이용합니다."
+
+#: includes/wp-members/admin/tab-etc.php:68
+#: includes/wp-members/admin/tab-group.php:59
+msgid "Update Settings"
+msgstr "설정 업데이트"
+
+#: includes/wp-members/admin/tab-fields.php:6
+msgid "Need help?"
+msgstr "도움말"
+
+#: includes/wp-members/admin/tab-fields.php:9
+msgid "You can change the order of the fields by drag-and-drop."
+msgstr "드래그앤드랍으로 필드의 순서를 조정이 가능합니다."
+
+#: includes/wp-members/admin/tab-fields.php:10
+msgid "Use a nickname or a display name instead of the first name and last name in Korea."
+msgstr "이름(first name)과 성(last name) 대신 별명(nickname)이나 표시 이름(display name)을 사용하십시오."
+
+#: includes/wp-members/admin/tab-fields.php:11
+msgid "You can add the Confirm Password field for register in the Miscellaneous Settings tab."
+msgstr "추가설정 탭에서 회원가입 시 비밀번호 확인 필드 추가가 가능합니다."
+
+#: includes/wp-members/admin/tab-fields.php:12
+msgid "Zip (zip), Address 1 (addr1), Address 2 (addr2) are required to use the zip code search. You can change the labels of those fields to Address by clicking the Edit button."
+msgstr "우편번호 검색을 사용하시려면 우편번호(zip), 주소(addr1), 상세주소(addr2) 필드를 추가하십시오. 레이블은 Edit 버튼을 클릭해서 수정하실 수 있습니다."
+
+#: includes/wp-members/admin/tab-fields.php:14
+msgid "New Field"
+msgstr "필드 추가"
+
+#: includes/wp-members/admin/tab-fields.php:15
+msgid "Display Name"
+msgstr "표시 이름"
+
+#: includes/wp-members/admin/tab-fields.php:16
+msgid "Nickname"
+msgstr "별명"
+
+#: includes/wp-members/admin/tab-fields.php:18
+msgid "Mobile"
+msgstr "핸드폰"
+
+#: includes/wp-members/admin/tab-fields.php:18
+msgid "Mobile Number"
+msgstr "핸드폰 번호"
+
+#: includes/wp-members/admin/tab-fields.php:19
+msgid "Checkout(Billing) Fields of WooCommerce"
+msgstr "우커머스 결제(청구) 필드"
+
+#: includes/wp-members/admin/tab-fields.php:21
+msgid "Postcode"
+msgstr "우편번호"
+
+#: includes/wp-members/admin/tab-fields.php:22
+msgid "Address"
+msgstr "주소"
+
+#: includes/wp-members/admin/tab-fields.php:23
+msgid "Address Detail"
+msgstr "상세주소"
+
+#: includes/wp-members/admin/tab-fields.php:24
+msgid "Phone"
+msgstr "전화번호"
+
+#: includes/wp-members/admin/tab-fields.php:24
+msgid "Phone Number"
+msgstr "전화번호"
+
+#: includes/wp-members/admin/tab-group.php:14
+msgid "Fields for Groups"
+msgstr "그룹에 필요한 필드"
+
+#: includes/wp-members/admin/tab-group.php:17
+msgid "Write the names of the fields for groups with comma separated. For example, first_name,last_name,user_email. <b>The user_email field must be included</b>. If empty, all fields will be used."
+msgstr "콤마(,)로 구분해서 그룹에 필요한 필드명을 입력하십시오. 예) first_name, last_name, user_email. <b>user_email은 반드시 포함되어야 합니다.</b> 입력하지 않으면 모든 필드가 사용됩니다."
+
+#: includes/wp-members/admin/tab-group.php:25
+msgid "Group Name"
+msgstr "그룹 이름"
+
+#: includes/wp-members/admin/tab-group.php:26
+msgid "Fields"
+msgstr "필드"
+
+#: includes/wp-members/admin/tab-group.php:27
+msgid "Shortcode"
+msgstr "숏코드"
+
+#: includes/wp-members/admin/tab-group.php:56
+msgid "Prepend the above shortcode before <i>[wp-members page=\"register\"]</i> in the register page."
+msgstr "회원가입 페이지에서 <i>[wp-members page=\"register\"]</i> 앞에 위의 숏코드를 추가하십시오."
+
+#: includes/wp-members/register_form_script.php:17
+#: includes/wp-members/wp-members.php:81
+msgid "The passwords do not match."
+msgstr "비밀번호가 일치하지 않습니다."
+
+#: includes/wp-members/wp-members.php:175
+msgid "Agreement"
+msgstr "약관 동의"
+
+#: includes/wp-members/wp-members.php:177
+msgid "User Information"
+msgstr "회원 정보"
+
+#: includes/wp-members/wp-members.php:229
+msgid "I agree to %s."
+msgstr "%s에 동의합니다."
+
+#: includes/wp-members/wp-members.php:230
+#: includes/wp-members/wp-members.php:267
+msgid "Please agree to %s."
+msgstr "%s에 동의해주십시오."
+
+#: includes/wp-members/wp-members.php:375
+msgid "Repeat Password"
+msgstr "비밀번호 확인"
+
+#: includes/wp-members/wp-members.php:407
+msgid "CAPTCHA"
+msgstr "자동가입 방지"
+
+#. Plugin Name of the plugin/theme
+msgid "Danbi Members"
+msgstr "단비 멤버스"
+
+#. Plugin URI of the plugin/theme
+msgid "http://danbistore.com/item/danbi-members"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "An extension of the WP-Members plugin providing the agreement of the TOS and privacy policy, and menus for login/logout/register."
+msgstr "WP-Members 의 확장 플러그인으로 이용약관, 개인정보 보호정책 동의 및 로그인/로그아웃/회원가입 메뉴 생성을 제공합니다."
+
+#. Author of the plugin/theme
+msgid "DanbiStore"
+msgstr "단비스토어"
+
+#. Author URI of the plugin/theme
+msgid "http://danbistore.com"
+msgstr ""
+
+msgid "Redirect to Home"
+msgstr "홈으로 이동"
+
+msgid "Redirects to Home after login"
+msgstr "로그인 후 홈으로 이동합니다"
+
+msgid "withdrawer"
+msgstr "탈퇴자"
+
+msgid "Find"
+msgstr "찾기"
