@@ -4,7 +4,11 @@
  */
 
 
-get_header('sd');
+if(has_term( 'soomduck', 'product_cat' )){
+    get_header('sd');
+} else {
+    get_header();
+}
 
 
 //set the template id, used to get the template specific settings
@@ -28,49 +32,7 @@ $td_sidebar_position = '';
 if($loop_sidebar_position == 'sidebar_left') {
 	$td_sidebar_position = 'td-sidebar-left';
 }
-
-
-
-/**
- * detect the page builder
- */
-$td_use_page_builder = td_util::is_pagebuilder_content($post);
-
-
-
-
-if ($td_use_page_builder) {
-
-    // the page is rendered using the page builder template (no sidebars)
-    if (have_posts()) { ?>
-        <?php while ( have_posts() ) : the_post(); ?>
-
-            <div class="td-main-content-wrap td-main-page-wrap">
-                <div class="td-container">
-                    <?php the_content(); ?>
-                </div>
-                <?php
-                if($td_enable_or_disable_page_comments == 'show_comments') {
-                    ?>
-                    <div class="td-container">
-                        <div class="td-pb-row">
-                            <div class="td-pb-span12">
-                                <?php comments_template('', true); ?>
-                            </div>
-                        </div>
-                    </div>
-                    <?php
-                }
-                ?>
-            </div> <!-- /.td-main-content-wrap -->
-
-
-        <?php endwhile; ?>
-    <?php }
-} else {
-
-    //no page builder detected, we load a default page template with sidebar / no sidebar
-    ?>
+?>
 
 <div class="td-main-content-wrap">
     <div class="td-container <?php echo $td_sidebar_position; ?>">
@@ -184,9 +146,9 @@ if ($td_use_page_builder) {
 </div> <!-- /.td-main-content-wrap -->
 
     <?php
+
+if(has_term( 'soomduck', 'product_cat' )){
+    get_footer('sd');
+} else {
+    get_footer( );
 }
-
-
-
-
-get_footer('sd');

@@ -11,8 +11,11 @@
 
 td_global::$current_template = 'woo_single';
 
-
-get_header('sd');
+if(has_term( 'soomduck', 'product_cat' )){
+    get_header('sd');
+} else {
+    get_header();
+}
 
 //set the template id, used to get the template specific settings
 $template_id = 'woo_single';
@@ -34,6 +37,31 @@ $td_sidebar_position = '';
 if($loop_sidebar_position == 'sidebar_left') {
     $td_sidebar_position = 'td-sidebar-left';
 }
+
+//check adult
+$user_id = get_current_user_id();
+$adult_date = date("Ymd", strtotime("-19 years"));
+$birth_date = get_user_meta($user_id, 'namecheck_birthdate', true);
+$is_adult = false;
+if($birth_date && ((int)$birth_date < (int)$adult_date)){
+    $is_adult = true;
+}
+
+if(!has_term( 'soomduck', 'product_cat' ) && !$user_id){
+   echo '<div class="td-main-content-wrap td-main-page-wrap">'.
+        '<div class="td-container">'.
+        '<h1> 로그인 후 이용해 주세요. </h1>'.
+        '</div></div>';
+
+ }else if(has_term( 'adult', 'product_cat' ) && !$is_adult){
+   echo '<div class="td-main-content-wrap td-main-page-wrap">'.
+        '<div class="td-container">'.
+        '<h1> 성인용 콘텐트입니다. </h1>'.
+        '<h1> <a class="content-header-link" href="http://thecooya.kr/profile/"> 성인 인증</a>이 필요합니다. </h1>'.
+        '<div class="button-div" id="profile-div-button">'.
+        '<a href="http://thecooya.kr/profile/" class="buttons" id="profile-button"> 성인 인증하기 </a>'.
+        '</div></div></div>';
+ } else {
 
 ?>
     <div class="td-main-content-wrap td-main-page-wrap">
@@ -96,5 +124,12 @@ if($loop_sidebar_position == 'sidebar_left') {
     </div> <!-- /.td-main-content-wrap -->
 
 <?php
-get_footer('sd');
+ }
+
+if(has_term( 'soomduck', 'product_cat' )){
+    get_footer('sd');
+} else {
+    get_footer( );
+}
+
 ?>

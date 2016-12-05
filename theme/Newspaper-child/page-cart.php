@@ -4,8 +4,11 @@
  */
 
 
-get_header('sd');
-
+if(has_term( 'soomduck', 'product_cat' )){
+    get_header('sd');
+} else {
+    get_header();
+}
 
 //set the template id, used to get the template specific settings
 $template_id = 'page';
@@ -186,7 +189,8 @@ if ($td_use_page_builder) {
     <?php
 }
 
-
-
-
-get_footer('sd');
+if(has_term( 'soomduck', 'product_cat' )){
+    get_footer('sd');
+} else {
+    get_footer( );
+}
