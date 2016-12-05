@@ -207,6 +207,10 @@ ul.wpuf-form .wpuf-submit input[type=submit]:hover{
 }
 
 /* author page */
+#profile-div-button {
+    margin-bottom : 50px;
+}
+
 #profile-button {
   background: #2c3e50;
   color: #ffffff;

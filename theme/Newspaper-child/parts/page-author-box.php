@@ -56,6 +56,7 @@ global $part_cur_auth_obj;
     </div>
     <div class="clearfix"></div>
 </div>
-<div class="button_div">
+<div class="button-div" id="profile-div-button">
     <a href="http://thecooya.kr/profile/" class="buttons" id="profile-button"> 내 프로필 편집 </a>
 </div>
+

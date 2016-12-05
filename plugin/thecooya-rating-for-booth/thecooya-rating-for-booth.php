@@ -1,12 +1,11 @@
 <?php
 /*
-Plugin Name: Thumbs Rating
-Plugin URI: http://wordpress.org/plugins/thumbs-rating/
+Plugin Name: thecooya-rating-for-booth
 Description: Add thumbs up/down rating to your content.
 Author: Ricard Torres
 Version: 3.1
 Author URI: http://php.quicoto.com/
-Text Domain: thumbs-rating
+Text Domain: thecooya-rating-for-booth
 Domain Path: /languages
 */
 
