@@ -11,8 +11,11 @@
 
 td_global::$current_template = 'woo';
 
-
-get_header('sd');
+if(has_term( 'soomduck', 'product_cat' )){
+    get_header('sd');
+} else {
+    get_header();
+}
 
 //set the template id, used to get the template specific settings
 $template_id = 'woo';
@@ -89,5 +92,9 @@ if($loop_sidebar_position == 'sidebar_left') {
 	</div> <!-- /.td-main-content-wrap -->
 
 <?php
-get_footer('sd');
+if(has_term( 'soomduck', 'product_cat' )){
+    get_footer('sd');
+} else {
+    get_footer( );
+}
 ?>

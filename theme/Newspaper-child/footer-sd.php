@@ -16,6 +16,10 @@
                     <p style="font-size:10px;">
                         2016 © All Rights Reserved by SOOMDUCK
                     </p>
+                    <p>
+                      <a href="http://thecooya.kr/soomduck/sd-privacy"> 개인정보 취급방침</a>
+                      <a href="http://thecooya.kr/soomduck/sd-agreement/"> 서비스 이용약관</a>
+                    </p>
                   </div>
         </div>
     </div>

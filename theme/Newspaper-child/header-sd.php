@@ -48,10 +48,10 @@
                 </div>
                 <div class="menu-sd" style="float:right;">
                     <?php if(is_user_logged_in()){
-                      echo '<a href="http://thecooya.kr/soomduck/my-account/customer-logout"> 로그아웃 </a>
-                    | <a href="http://thecooya.kr/soomduck/my-account"> 마이 페이지</a>' ;
+                      echo '<a href="http://thecooya.kr/soomduck/sd-my-account/customer-logout"> 로그아웃 </a>
+                    | <a href="http://thecooya.kr/soomduck/sd-my-account"> 마이 페이지</a>' ;
                     } else {
-                      echo '<a href="http://thecooya.kr/soomduck/my-account/customer-logout"> 로그인 </a>' ;
+                      echo '<a href="http://thecooya.kr/soomduck/sd-my-account/customer-logout"> 로그인 </a>' ;
                     } ?>
                 </div>
             </div>
